@@ -1,0 +1,41 @@
+participant_id	session_id	sleep_last_night	caffeine_before_scan	caffene_hours_before	caffeine_type
+sub-01	ses-01	7	YES	3.5	1 cup tea
+sub-02	ses-01	7.5	YES	4	1 cup coffee
+sub-03	ses-01	2	NO	N/A	N/A
+sub-04	ses-01	9.5	YES	5	1 cup coffee
+sub-04	ses-02	7	NO	N/A	N/A
+sub-05	ses-01	6	NO	N/A	N/A
+sub-05	ses-02	4	NO	N/A	N/A
+sub-06	ses-01	8.5	NO	N/A	N/A
+sub-06	ses-02	8.5	NO	N/A	N/A
+sub-07	ses-02	6	YES	1.5	1/2 cup green tea
+sub-07	ses-01	6.5	YES	5.5	1 cup coffee
+sub-08	ses-02	7.5	NO	N/A	N/A
+sub-08	ses-01	8.5	NO	N/A	N/A
+sub-09	ses-01	8	NO	N/A	N/A
+sub-10	ses-01	8	YES	0	1 large mug coffee
+sub-10	ses-02	5.5	YES	2.5	1 large mug coffee
+sub-11	ses-01	6.5	YES	2	1 cup coffee
+sub-11	ses-02	6.5	YES	2	1 cup coffee
+sub-12	ses-01	7	YES	3	1 cup coffee
+sub-12	ses-02	7	YES	4.5	1 cup coffee
+sub-13	ses-01	6.5	NO	N/A	N/A
+sub-13	ses-02	7	NO	N/A	N/A
+sub-14	ses-01	6	YES	2	1 large iced coffee
+sub-14	ses-02	5.5	YES	0	1 can large Red Bull
+sub-15	ses-01	6	YES	7	1 cup coffee
+sub-15	ses-02	6	NO	N/A	N/A
+sub-16	ses-01	6.5	YES	1	1 cup tea
+sub-16	ses-02	8	YES	1	1 cup tea
+sub-17	ses-01	8	YES	1	1 cup coffee
+sub-17	ses-02	8	YES	1	1 cup coffee
+sub-17	ses-03	8	YES	0	1 cup coffee
+sub-18	ses-01	7.5	NO	N/A	N/A
+sub-19	ses-01	5.5	YES	1	1 large cup coffee (20oz)
+sub-19	ses-02	8	YES	3.5	1 large cup coffee (20oz)
+sub-20	ses-01	N/A	NO	N/A	N/A
+sub-20	ses-02	5	NO	N/A	N/A
+sub-21	ses-01	4.5	NO	N/A	N/A
+sub-21	ses-02	7	NO	N/A	N/A
+sub-22	ses-01	8	YES	3.5	1 cup coffee
+sub-22	ses-02	9	YES	2	1 cup coffee

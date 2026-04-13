@@ -1,0 +1,202 @@
+{
+	"Name": "Pittsburgh Sleep Quality Index (PSQI)",
+	"Description": "The Pittsburgh Sleep Quality Index (PSQI) is a self-rated questionnaire which assesses sleep quality and disturbances over a 1-month time interval. Nineteen individual items generate seven component scores: subjective sleep quality, sleep latency, sleep duration, habitual sleep efficiency, sleep disturbances, use of sleeping medication, and daytime dysfunction. The sum of scores for these seven components yields one global score.",
+	"ReferencesAndLinks": ["https://pubmed.ncbi.nlm.nih.gov/2748771/",
+	"Buysse DJ, Reynolds III CF, Monk TH, Berman SR, Kupfer DJ (1989). The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res, 28(2):193-213. doi: 10.1016/0165-1781(89)90047-4."
+	],
+	"Instructions": "The following questions relate to your usual sleep habits during the past month only. Your answers should indicate the most accurate reply for the majority of days and nights in the past month. Please answer all questions.",
+	"participant_id": {
+		"LongName": "Participant ID",
+		"Description": "ID assigned to participant"
+	},
+	"Q1": {
+		"LongName": "PSQI Question 1",
+		"Description": "When have you usually gone to bed?"
+	},
+	"Q2": {
+		"LongName": "PSQI Question 2",
+		"Description": "How long (in minutes) has it taken you to fall asleep each night?",
+		"Units": "minutes"
+	},
+	"Q3": {
+		"LongName": "PSQI Question 3",
+		"Description": "When have you usually gotten up in the morning?"
+	},
+	"Q4": {
+		"LongName": "PSQI Question 4",
+		"Description": "How many hours of actual sleep do you get at night? (This may be different than the number of hours you spend in bed)",
+		"Units": "hours"
+	},
+	"Q5a": {
+		"LongName": "PSQI Question 5a",
+		"Description": "During the past month, how often have you had trouble sleeping because you cannot get to sleep within 30 minutes",
+		"Levels": {
+			"0": "Not during the past month (0)",
+			"1": "Less than once a week (1)",
+			"2": "Once or twice a week (2)",
+			"3": "Three or more a week (3)"
+		}
+	},
+	"Q5b": {
+		"LongName": "PSQI Question 5b",
+		"Description": "During the past month, how often have you had trouble sleeping because you wake up in the middle of the night or early morning",
+		"Levels": {
+			"0": "Not during the past month (0)",
+			"1": "Less than once a week (1)",
+			"2": "Once or twice a week (2)",
+			"3": "Three or more a week (3)"
+		}
+	},
+	"Q5c": {
+		"LongName": "PSQI Question 5c",
+		"Description": "During the past month, how often have you had trouble sleeping because you have to get up to use the bathroom",
+		"Levels": {
+			"0": "Not during the past month (0)",
+			"1": "Less than once a week (1)",
+			"2": "Once or twice a week (2)",
+			"3": "Three or more a week (3)"
+		}
+	},
+	"Q5d": {
+		"LongName": "PSQI Question 5d",
+		"Description": "During the past month, how often have you had trouble sleeping because you cannot breathe comfortably",
+		"Levels": {
+			"0": "Not during the past month (0)",
+			"1": "Less than once a week (1)",
+			"2": "Once or twice a week (2)",
+			"3": "Three or more a week (3)"
+		}
+	},
+	"Q5e": {
+		"LongName": "PSQI Question 5e",
+		"Description": "During the past month, how often have you had trouble sleeping because you cough or snore loudly",
+		"Levels": {
+			"0": "Not during the past month (0)",
+			"1": "Less than once a week (1)",
+			"2": "Once or twice a week (2)",
+			"3": "Three or more a week (3)"
+		}
+	},
+	"Q5f": {
+		"LongName": "PSQI Question 5f",
+		"Description": "During the past month, how often have you had trouble sleeping because you feel too cold",
+		"Levels": {
+			"0": "Not during the past month (0)",
+			"1": "Less than once a week (1)",
+			"2": "Once or twice a week (2)",
+			"3": "Three or more a week (3)"
+		}
+	},
+	"Q5g": {
+		"LongName": "PSQI Question 5g",
+		"Description": "During the past month, how often have you had trouble sleeping because you feel too hot",
+		"Levels": {
+			"0": "Not during the past month (0)",
+			"1": "Less than once a week (1)",
+			"2": "Once or twice a week (2)",
+			"3": "Three or more a week (3)"
+		}
+	},
+	"Q5h": {
+		"LongName": "PSQI Question 5h",
+		"Description": "During the past month, how often have you had trouble sleeping because you have bad dreams",
+		"Levels": {
+			"0": "Not during the past month (0)",
+			"1": "Less than once a week (1)",
+			"2": "Once or twice a week (2)",
+			"3": "Three or more a week (3)"
+		}
+	},
+	"Q5i": {
+		"LongName": "PSQI Question 5i",
+		"Description": "During the past month, how often have you had trouble sleeping because you have pain",
+		"Levels": {
+			"0": "Not during the past month (0)",
+			"1": "Less than once a week (1)",
+			"2": "Once or twice a week (2)",
+			"3": "Three or more a week (3)"
+		}
+	},
+	"Q5j": {
+		"LongName": "PSQI Question 5j",
+		"Description": "During the past month, how often have you had trouble sleeping because other reason(s)",
+		"Levels": {
+			"0": "Not during the past month (0)",
+			"1": "Less than once a week (1)",
+			"2": "Once or twice a week (2)",
+			"3": "Three or more a week (3)"
+		}
+	},
+	"Q6": {
+		"LongName": "PSQI Question 6",
+		"Description": "During the past month, how often have you taken medicine (prescribed or over the counter) to help you sleep?",
+		"Levels": {
+			"0": "Not during the past month (0)",
+			"1": "Less than once a week (1)",
+			"2": "Once or twice a week (2)",
+			"3": "Three or more a week (3)"
+		}
+	},
+	"Q7": {
+		"LongName": "PSQI Question 7",
+		"Description": "During the past month, how often have you had trouble staying awake while driving, eating meals, or engaging in social activity?",
+		"Levels": {
+			"0": "Not during the past month (0)",
+			"1": "Less than once a week (1)",
+			"2": "Once or twice a week (2)",
+			"3": "Three or more a week (3)"
+		}
+	},
+	"Q8": {
+		"LongName": "PSQI Question 8",
+		"Description": "During the past month, how much of a problem has it been for you to keep up enthusiasm to get things done?",
+		"Levels": {
+			"0": "Not during the past month (0)",
+			"1": "Less than once a week (1)",
+			"2": "Once or twice a week (2)",
+			"3": "Three or more a week (3)"
+		}
+	},
+	"Q9": {
+		"LongName": "PSQI Question 9",
+		"Description": "During the past month, how would you rate your sleep quality overall?",
+		"Levels": {
+			"0": "Very good (0)",
+			"1": "Fairly good (1)",
+			"2": "Fairly bad (2)",
+			"3": "Very bad (3)"
+		}
+	},
+	"C1": {
+		"LongName": "Component 1",
+		"Description": "Q9 Score"
+	},
+	"C2": {
+		"LongName": "Component 2",
+		"Description": "Q2 Score (<=15 min=0; 16-30 min=1; 31-60 min=2; >60 min=3) + Q5a Score (if sum is equal 0=0; 1-2=1; 3-4=2; 5-6=3)"
+	},
+	"C3": {
+		"LongName": "Component 3",
+		"Description": "Q4 Score (>7=0; 6-7=1; 5-6=2; <5=3)"
+	},
+	"C4": {
+		"LongName": "Component 4",
+		"Description": "(total # of hours asleep)/(total Q of hours in bed) x 100 (>85%=0; 75%-84%=1; 65%-74%=2; <65%=3)"
+	},
+	"C5": {
+		"LongName": "Component 5",
+		"Description": "Sum of Scores Q5b to Q5j (0=0; 1-9=1; 10-18=2; 19-27=3)"
+	},
+	"C6": {
+		"LongName": "Component 6",
+		"Description": "Q6 Score"
+	},
+	"C7": {
+		"LongName": "Component 7",
+		"Description": "Q7 Score + Q8 Score (0=0; 1-2=1; 3-4=2; 5-6=3)"
+	},
+	"PSQI": {
+		"LongName": "Global PSQI Score",
+		"Description": "Sum of Components C1 to C7"
+	}
+}

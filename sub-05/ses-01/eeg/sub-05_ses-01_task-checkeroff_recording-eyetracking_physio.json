@@ -1,0 +1,70 @@
+{
+  "SamplingFrequency": 1000,
+  "StartTime": 69.62,
+  "Columns": [
+    "Time",
+    "Gaze_X",
+    "Gaze_Y",
+    "Pupil_Area",
+    "Resolution_X",
+    "Resolution_Y",
+    "Fixations",
+    "Saccades",
+    "Blinks",
+    "Task_Start_End_Trigger",
+    "Timer_Trigger_1_second",
+    "fMRI_Volume_Trigger"
+  ],
+  "Manufacturer": "SR Research",
+  "ManufacturersModelName": "EYELINK II 1",
+  "SoftwareVersions": "EYELINK II CL v5.09 Nov 17 2015",
+  "DeviceSerialNumber": "CLO-ZBB14",
+  "DisplayCoordinates": [
+    0,
+    0,
+    1023,
+    767
+  ],
+  "Time": {
+    "Description": "timestamps; time zero corresponds to the start of the task (movie, checkerboard, rest)",
+    "Units": "s"
+  },
+  "Gaze_X": {
+    "Description": "horizontal gaze position on the screen; Origin (0,0) at the top left)",
+    "Units": "pixels"
+  },
+  "Gaze_Y": {
+    "Description": "Vertical gaze position on the screen; Origin (0,0) at the top left)",
+    "Units": "pixels"
+  },
+  "Pupil_Area": {
+    "Description": "pupil size reported as area (not calibrated)",
+    "Units": "arbitrary units"
+  },
+  "Resolution_X": {
+    "Description": "instantaneous angular resolution in horizontal direction; defines the relationship between visual angle and gaze position",
+    "Units": "pixels per degreee visual angle"
+  },
+  "Resolution_Y": {
+    "Description": "instantaneous angular resolution in vertical direction; defines the relationship between visual angle and gaze position",
+    "Units": "pixels per degreee visual angle"
+  },
+  "Fixations": {
+    "Description": "1 indicates a fixation"
+  },
+  "Saccades": {
+    "Description": "1 indicates a saccade"
+  },
+  "Blinks": {
+    "Description": "1 indicates a blink"
+  },
+  "Task_Start_End_Trigger": {
+    "Description": "1 indicates the start and end of the task, respectively; sent by the stimulus PC"
+  },
+  "Timer_Trigger_1_second": {
+    "Description": "1 indicates time of a trigger sent every second by the stimulus PC"
+  },
+  "fMRI_Volume_Trigger": {
+    "Description": "1 indicates time of a trigger sent by the fMRI scanner at the start of a volume"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "onset": {
+    "LongName": "Onset time",
+    "Description": "Onset of event, measured in terms of task start during EEG acquisiton (0 marks start of task).",
+    "Units": "s"
+  },
+  "duration": {
+    "LongName": "Duration",
+    "Description": "Duration of event",
+    "Units": "s"
+  },
+  "sample": {
+    "LongName": "Sample",
+    "Description": "Onset of event in terms of sampling scheme recording modality (latency)",
+    "Units": "samples"
+  },
+  "type": {
+    "LongName": "Trial type",
+    "Description": "Type of trial in experimental condition",
+    "Levels": {
+      "NewSegment": "Beginning of new EEG recording",
+      "SyncStatus": "Status of phase synchronization between EEG equipment and MRI scanner",
+      "Stimulus": "Event code from task sent from stimulus PC",
+      "Response": "Response code from scanner during acquisition of functional MRI"
+    }
+  },
+  "value": {
+    "LongName": "Event codes",
+    "Description": "Event codes recorded during EEG acquisition",
+    "Levels": {
+      "R128": "Scanner trigger onset, code appears every TR during simultaneous EEG-fMRI recording",
+      "S1": "First white dot appears on screen",
+      "S2": "Second white dot appears on screen",
+      "S3": "Third white dot appears on screen",
+      "S4": "Fourth white dot appears on screen",
+      "S5": "Fifth white dot appears on screen",
+      "S6": "Sixth white dot appears on screen",
+      "S7": "Seventh white dot appears on screen",
+      "S8": "Eighth white dot appears on screen",
+      "S9": "Ninth white dot appears on screen",
+      "S10": "Tenth white dot appears on screen",
+      "S11": "Eleventh white dot appears on screen",
+      "S12": "Twelfth white dot appears on screen",
+      "S13": "Thirteenth white dot appears on screen",
+      "S14": "Fourteenth white dot appears on screen",
+      "S15": "Fifteenth white dot appears on screen",
+      "S16": "Sixteenth white dot appears on screen",
+      "S17": "Seventeenth white dot appears on screen",
+      "S18": "Eighteenth white dot appears on screen",
+      "S19": "Nineteenth white dot appears on screen",
+      "S20": "Twentieth white dot appears on screen",
+      "S21": "Twenty-first white dot appears on screen",
+      "S22": "Twenty-second white dot appears on screen",
+      "S23": "Twenty-third white dot appears on screen",
+      "S24": "Twenty-fourth white dot appears on screen",
+      "S25": "Twenty-fifth white dot appears on screen",
+      "S26": "Twenty-sixth white dot appears on screen",
+      "S27": "Twenty-seventh white dot appears on screen"
+    }
+  }
+}

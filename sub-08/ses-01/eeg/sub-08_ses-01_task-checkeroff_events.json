@@ -1,0 +1,41 @@
+{
+  "onset": {
+    "LongName": "Onset time",
+    "Description": "Onset of event, measured in terms of task start during EEG acquisiton (0 marks start of task).",
+    "Units": "s"
+  },
+  "duration": {
+    "LongName": "Duration",
+    "Description": "Duration of event",
+    "Units": "s"
+  },
+  "sample": {
+    "LongName": "Sample",
+    "Description": "Onset of event in terms of sampling scheme recording modality (latency)",
+    "Units": "samples"
+  },
+  "type": {
+    "LongName": "Trial type",
+    "Description": "Type of trial in experimental condition",
+    "Levels": {
+      "NewSegment": "Beginning of new EEG recording",
+      "SyncStatus": "Status of phase synchronization between EEG equipment and MRI scanner",
+      "Stimulus": "Event code from task sent from stimulus PC",
+      "Response": "Response code from scanner during acquisition of functional MRI"
+    }
+  },
+  "value": {
+    "LongName": "Event codes",
+    "Description": "Event codes recorded during EEG acquisition",
+    "Levels": {
+      "S1": "Task Start",
+      "S10": "Start rest block",
+      "S11": "Rest trial 1s onset, code appears every 1 second during rest block",
+      "S12": "Rest trial 2s onset, code appears every 2 seconds during rest block",
+      "S25": "Start checkerboard block",
+      "S26": "Checkerboard trial 1s onset, code appears every 1 second during checkerboard block",
+      "S27": "Checkerboard trial 2s onset, code appears every 2 seconds during checkerboard block",
+      "S99": "Task End"
+    }
+  }
+}

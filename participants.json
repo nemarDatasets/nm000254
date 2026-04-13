@@ -1,0 +1,48 @@
+{
+	"participant_id": {
+		"LongName": "Participant ID",
+		"Description": "ID assigned to participant"
+	},
+	"age": {
+		"Description": "age of the participant",
+		"Units": "years"
+	},
+	"sex": {
+		"Description": "sex of the participant as reported by the participant",
+		"Levels": {
+			"Male": "Male",
+			"Female": "Female"
+		}
+	},
+	"race": {
+		"Description": "race of the participant as reported by the participant",
+		"Levels": {
+			"Asian": "Asian, Native Hawaiian or Other Pacific Islander",
+			"Black": "Black or African American",
+			"Native American": "American Indian or Alaska Native",
+			"White": "White"
+		}
+	},
+	"ethnicity": {
+		"Description": "ethnicity of the participant as reported by the participant",
+		"Levels": {
+			"Hispanic": "Hispanic",
+			"Non-Hispanic": "Non-Hispanic"
+			}
+	},
+	"handedness": {
+		"Description": "handedness of the participant as reported by the participant",
+		"Levels": {
+			"Left": "Left",
+			"Right": "Right"
+		}
+	},
+	"height": {
+		"Description": "height of the participant (recorded as inches at time of scan session, reported in centimeters)",
+		"Units": "centimeters"
+	},
+	"weight": {
+		"Description": "weight of the participant (recorded as pounds at time of scan session, reported in kilograms",
+		"Units": "kilograms"
+	}
+}

@@ -1,0 +1,44 @@
+{
+  "name": {
+    "LongName": "Electrode name",
+    "Description": "Name of electrode in EEG cap"
+  },
+  "type": {
+    "LongName": "Modality type",
+    "Description": "Data modality of collected data"
+  },
+  "units": {
+    "LongName": "Units",
+    "Description": "Units of measure for EEG recording",
+    "Units": "Microvolts"
+  },
+  "sampling_frequency": {
+    "LongName": "Sampling frequency",
+    "Description": "Sampling frequency of data recording",
+    "Units": "Hz"
+  },
+  "description": {
+    "LongName": "Description"
+  },
+  "low_cutoff": {
+    "LongName": "Low-cutoff filter [s]",
+    "Description": "Filter that reduces the amplitude of low-frequency digitized signals"
+  },
+  "high_cutoff": {
+    "LongName": "High-cutoff filter [Hz]",
+    "Description": "Filter that reduces the amplitude of high-frequency digitized signals"
+  },
+  "notch": {
+    "LongName": "Notch filter [On/Off]",
+    "Description": "Filters mainline noise"
+  },
+  "software_filters": {
+    "LongName": "Software filters"
+  },
+  "status": {
+    "LongName": "Status"
+  },
+  "status_description": {
+    "LongName": "Status description"
+  }
+}

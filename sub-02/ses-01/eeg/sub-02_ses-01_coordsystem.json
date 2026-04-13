@@ -1,0 +1,5 @@
+{
+  "EEGCoordinateSystem": "Other",
+  "EEGCoordinateUnits": "n/a",
+  "EEGCoordinateSystemDescription": "Electrode positions as shipped in NATVIEW's _electrodes.tsv. Values appear to be normalized unit-sphere coordinates (range roughly -1 to 1) corresponding to the channel layout of the Brain Products BrainCapMR cap used in this study (61 cortical EEG channels + EOG/ECG, 10-10-style layout per the dataset description). The values are NOT subject-specific MRI-derived coordinates and have NOT been co-registered to each participant's T1w anatomical (which is included separately). Units / origin / handedness are not documented in the NATVIEW release; consult the dataset's _electrodes.json or contact the authors before any geometric or distance computation."
+}

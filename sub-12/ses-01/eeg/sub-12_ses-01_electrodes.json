@@ -1,0 +1,5 @@
+{
+  "EEGCoordinateSystem": "RAS",
+  "EEGCoordinateUnits": "mm",
+  "EEGCoordinateSystemDescription": "Right-Anterior-Superior corresponding to X, Y and Z"
+}

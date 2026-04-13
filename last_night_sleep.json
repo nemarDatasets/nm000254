@@ -1,0 +1,29 @@
+{
+  "participant_id": {
+    "LongName": "Participant ID",
+    "Description": "ID assigned to participant"
+  },
+  "session_id": {
+    "LongName": "Session ID",
+    "Description": "Scanning session, in this study there are two scan session on two separate days"
+  },
+  "sleep_last_night": {
+    "LongName": "Hours Sleep Last Night",
+    "Description": "Number of hours participant slept in the previous night of scan session",
+    "Units": "Hours"
+  },
+  "caffeine_before_scan": {
+    "LongName": "Caffeine Before Scan",
+    "Description": "Participants were asked if they consumed caffeine before the scan session",
+  },
+    },
+  "caffene_hours_before": {
+    "LongName": "Hours Caffeine Before Scan",
+    "Description": "If participants consumed caffeine before scan, they were asked how many hours before scan did they consume caffeine to the nearest half hour",
+    "Units": "Hours"
+  },
+    },
+  "caffeine_type": {
+    "LongName": "Type of Caffeine",
+    "Description": "If participants consumed caffeine before scan, they were what type and how much caffeine did they consume (e.g., 1 can of soda)",
+  },

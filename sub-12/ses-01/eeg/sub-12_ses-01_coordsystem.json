@@ -1,0 +1,5 @@
+{
+  "EEGCoordinateSystem": "Other",
+  "EEGCoordinateUnits": "mm",
+  "EEGCoordinateSystemDescription": "Standard 10-20 system electrode positions. Coordinates derived from the BrainProducts cap template. No anatomical MRI co-registration was performed; coordinates represent idealized positions on the scalp surface."
+}

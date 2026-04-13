@@ -1,0 +1,13 @@
+{
+  "SamplingFrequency": 62.5,
+  "StartTime": 0,
+  "Columns": [
+    "time"
+  ],
+  "Manufacturer": "BIOPAC Systems, Inc.",
+  "ManufacturersModelName": "MP150",
+  "respiratory": {
+    "description": "continuous measurements by respiration belt",
+    "units": "V"
+  }
+}

@@ -1,0 +1,18 @@
+{
+	"ECGChannelCount": 1,
+	"EEGChannelCount": 61,
+	"EEGReference": "FCz",
+	"EMGChannelCount": 0,
+	"EOGChannelCount": 2,
+	"EpochLength": 320.42,
+	"InstitutionAddress": "140 Old Orangeburg Road, Orangeburg, NY 10962, USA",
+	"InstitutionName": "Nathan S. Kline Institute for Psychiatric Research",
+	"InstitutionalDepartmentName": "Center for Biomedical Imaging and Neuromodulation",
+	"MiscChannelCount": 0,
+	"PowerLineFrequency": 60,
+	"RecordingDuration": 320.42,
+	"SamplingFrequency": 5000,
+	"SoftwareFilters": "n/a",
+	"TaskName": "monkey5",
+	"TriggerChannelCount": 0
+}

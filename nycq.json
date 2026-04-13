@@ -1,0 +1,140 @@
+{
+	"Name": "New York Cognition Questionnaire (NYC-Q)",
+	"Description": "The New York Cognition Questionnaire (NYC-Q) is a 31-item self-report questionnaire that asks participants about the different thoughts and feelings that they may have had while in the MRI scan. Participants are asked to indicate the extent to which their thinking or experience corresponded to each item on a 9-point scale: 1-Completely did not describe my thoughts or characterize my experience, to 9-Completely did describe my thoughts or characterize my experience.",
+	"ReferencesAndLinks": ["https://pubmed.ncbi.nlm.nih.gov/24824880/",
+	"Gorgolewski KJ, Lurie D, Urchs S, Kipping JA, Craddock RC, Milham MP, Margulies DS, Smallwood J (2014). A correspondence between individual differences in the brain's intrinsic functional architecture and the content and form of self-generated thoughts. PLoS One, 9(5):e97176. doi: 10.1371/journal.pone.0097176."
+	],
+	"Instructions": "[Section 1] We are interested in the thoughts and feelings that you experienced during the MRI. Please indicate which statement describes the thoughts that you experienced while completing the MRI. Indicate the extent to which your thinking corresponded to each item by selecting the relevant option associated with each sentence. Response for items 1-23: 1 = Completely did not describe my thoughts; 9 = Completely did describe my thoughts. [Section 2] We are interested in the thoughts you had while performing the last task. Please indicate the extent to which each of these statements correctly characterizes your thinking. Please indicate, using numbers, how much the statement characterizes your thoughts in the last task. Response for items 24-31: 1 = Completely does not characterize my experience; 9 = Completely does characterize my experience.",
+	"participant_id": {
+		"LongName": "Participant ID",
+		"Description": "ID assigned to participant"
+	},
+	"session_id": {
+		"LongName": "Session ID",
+		"Description": "Scanning session, in this study there are two scan session on two separate days"
+	},
+  "NYCQ01": {
+		"LongName": "NYC-Q Item 1",
+		"Description": "I thought about things I am currently worried about"
+	},
+	"NYCQ02": {
+		"LongName": "NYC-Q Item 2",
+		"Description": "I thought about people I have just recently met"
+	},
+	"NYCQ03": {
+		"LongName": "NYC-Q Item 3",
+		"Description": "I thought of people I have known for a long time (friends)"
+	},
+	"NYCQ04": {
+		"LongName": "NYC-Q Item 4",
+		"Description": "I thought about members of my family"
+	},
+	"NYCQ05": {
+		"LongName": "NYC-Q Item 5",
+		"Description": "I thought about an event that took place earlier today"
+	},
+	"NYCQ06": {
+		"LongName": "NYC-Q Item 6",
+		"Description": "I thought about an interaction I may possibly have in the future"
+	},
+	"NYCQ07": {
+		"LongName": "NYC-Q Item 7",
+		"Description": "I thought about an interaction with some body that took place in the past"
+	},
+	"NYCQ08": {
+		"LongName": "NYC-Q Item 8",
+		"Description": "I thought about something that happened at a place very close to me"
+	},
+	"NYCQ09": {
+		"LongName": "NYC-Q Item 9",
+		"Description": "I thought about something that made me feel guilty"
+	},
+	"NYCQ10": {
+		"LongName": "NYC-Q Item 10",
+		"Description": "I thought about an event that may take place later today"
+	},
+	"NYCQ11": {
+		"LongName": "NYC-Q Item 11",
+		"Description": "I thought about something that happened in the recent past (last couple of days but not today)"
+	},
+	"NYCQ12": {
+		"LongName": "NYC-Q Item 12",
+		"Description": "I thought about something that happened a long time ago in the past"
+	},
+	"NYCQ13": {
+		"LongName": "NYC-Q Item 13",
+		"Description": "I thought about something that made me angry"
+	},
+	"NYCQ14": {
+		"LongName": "NYC-Q Item 14",
+		"Description": "I thought about something that made me happy"
+	},
+	"NYCQ15": {
+		"LongName": "NYC-Q Item 15",
+		"Description": "I thought about something that made me cheerful"
+	},
+	"NYCQ16": {
+		"LongName": "NYC-Q Item 16",
+		"Description": "I thought about something that made me calm"
+	},
+	"NYCQ17": {
+		"LongName": "NYC-Q Item 17",
+		"Description": "I thought about something that made me sad"
+	},
+	"NYCQ18": {
+		"LongName": "NYC-Q Item 18",
+		"Description": "I thought about something that is important to me"
+	},
+	"NYCQ19": {
+		"LongName": "NYC-Q Item 19",
+		"Description": "I thought about something that could still happen today"
+	},
+	"NYCQ20": {
+		"LongName": "NYC-Q Item 20",
+		"Description": "I thought about something that may take place in the distant future"
+	},
+	"NYCQ21": {
+		"LongName": "NYC-Q Item 21",
+		"Description": "I thought about something that could take place in the near future (days or weeks but not today)"
+	},
+	"NYCQ22": {
+		"LongName": "NYC-Q Item 22",
+		"Description": "I thought about personal worries"
+	},
+	"NYCQ23": {
+		"LongName": "NYC-Q Item 23",
+		"Description": "I thought about something that happened in a place far away from where I am now"
+	},
+	"NYCQ24": {
+		"LongName": "NYC-Q Item 24",
+		"Description": "During the task my thoughts were in the form of images"
+	},
+	"NYCQ25": {
+		"LongName": "NYC-Q Item 25",
+		"Description": "During the task my thoughts were in the form of words"
+	},
+	"NYCQ26": {
+		"LongName": "NYC-Q Item 26",
+		"Description": "During the task my thoughts were like an inner monologue or audiobook"
+	},
+	"NYCQ27": {
+		"LongName": "NYC-Q Item 27",
+		"Description": "During the task my thoughts were like a television program or film"
+	},
+	"NYCQ28": {
+		"LongName": "NYC-Q Item 28",
+		"Description": "During the task my thoughts were had a strong and consistent personal narrative"
+	},
+	"NYCQ29": {
+		"LongName": "NYC-Q Item 29",
+		"Description": "During the task my thoughts were had a clear sense of purpose"
+	},
+	"NYCQ30": {
+		"LongName": "NYC-Q Item 30",
+		"Description": "During the task my thoughts were vague and non-specific"
+	},
+	"NYCQ31": {
+		"LongName": "NYC-Q Item 31",
+		"Description": "During the task my thoughts were fragmented and disjointed"
+	}
+}

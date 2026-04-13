@@ -1,0 +1,19 @@
+{
+  "onset": {
+    "Description": "Event onset in seconds relative to recording start"
+  },
+  "duration": {
+    "Description": "Event duration in seconds"
+  },
+  "sample": {
+    "Description": "Sample index of the event onset"
+  },
+  "type": {
+    "LongName": "Event category",
+    "Description": "Type of event marker as recorded by BrainVision (Stimulus, Response, Comment, etc.)"
+  },
+  "marker_code": {
+    "LongName": "BrainVision marker code",
+    "Description": "Raw marker code from the BrainVision recorder (e.g. 'S 1' for stimulus 1, 'R128' for response 128). Renamed from BIDS 'value' to preserve non-numeric string codes."
+  }
+}
