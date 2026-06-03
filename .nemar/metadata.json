@@ -1,0 +1,109 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Qawi K Telesford": {},
+    "Eduardo Gonzalez-Moreira": {},
+    "Ting Xu": {
+      "orcid": "0000-0002-0065-3832"
+    },
+    "Yiwen Tian": {},
+    "Stanley Colcombe": {},
+    "Jessica Cloud": {},
+    "Brian Edward Russ": {},
+    "Arnaud Falchier": {},
+    "Maximilian Nentwich": {
+      "orcid": "0000-0002-9306-7591"
+    },
+    "Jens Madsen": {
+      "orcid": "0000-0001-8163-001X"
+    },
+    "Lucas Parra": {},
+    "Charles Schroeder": {},
+    "Michael Milham": {},
+    "Alexandre Rosa Franco": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41597-023-02458-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000254",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000254",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "NIH",
+      "award_number": "R24MH114806",
+      "award_title": "BRAIN Initiative Grant"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "P50MH109429",
+      "award_title": "National Institute of Mental Health Grant"
+    }
+  ],
+  "title": "Naturalistic viewing: An open-access dataset using simultaneous EEG-fMRI",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "anat",
+    "eeg",
+    "func"
+  ],
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "274.8 GB (1980 files)"
+  ],
+  "formats": [
+    ".gz",
+    ".json",
+    ".set",
+    ".sh",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "description": "This dataset comprises simultaneous EEG-fMRI recordings from 22 participants (ages 23-51) during naturalistic viewing, collected at the Nathan Kline Institute. The multimodal acquisition includes 64-channel EEG, eye tracking, and physiological monitoring (respiration, ECG) alongside fMRI data. The dataset aims to elucidate the neural basis of brain function by examining correlations between electrical activity and hemodynamic fluctuations during naturalistic stimulation.",
+  "methods_description": "Data were collected using simultaneous EEG-fMRI acquisition. EEG was recorded with a 64-channel Brain Products BrainCapMR system (61 cortical channels, 2 EOG channels, 1 ECG channel). Eye tracking was performed using an EyeLink 1000 infrared-based tracker inside the scanner. Physiological recordings (respiration) were acquired using a BIOPAC MP150 system with a respiratory transducer belt. Participants completed behavioral assessments including the Pittsburgh Sleep Quality Index, sleep duration, and caffeine intake prior to scanning.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "fMRI"
+    },
+    {
+      "term": "simultaneous EEG-fMRI"
+    },
+    {
+      "term": "naturalistic viewing"
+    },
+    {
+      "term": "eye tracking"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    },
+    {
+      "term": "electrophysiology"
+    },
+    {
+      "term": "brain imaging"
+    },
+    {
+      "term": "multimodal acquisition"
+    }
+  ],
+  "source_hash": "6258927033afd07284b744e2da44c4fcd2973421f710117b9eae1b0cfe82a372"
+}
