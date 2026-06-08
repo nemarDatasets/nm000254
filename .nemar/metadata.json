@@ -1,6 +1,10 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
+  "title": "Naturalistic viewing: An open-access dataset using simultaneous EEG-fMRI",
+  "description": "This dataset comprises simultaneous EEG-fMRI recordings from 22 participants (ages 23-51) during naturalistic viewing, collected at the Nathan Kline Institute. The 64-channel EEG data (61 cortical channels, 2 EOG, 1 ECG) is paired with fMRI acquisitions, supplemented by eye-tracking and respiratory recordings. The dataset aims to elucidate the relationship between electrical brain activity and hemodynamic fluctuations during naturalistic stimulation.",
+  "methods_description": "Data were collected using simultaneous EEG-fMRI acquisition with a customized Brain Products BrainCapMR 64-channel system. Eye tracking was performed using EyeLink 1000 inside the scanner. Physiological monitoring included respiratory recordings via BIOPAC MP150. Participants completed behavioral assessments including the Pittsburgh Sleep Quality Index, sleep duration, and caffeine intake prior to scanning.",
+  "dataset_type": "raw",
   "authors": {
     "Qawi K Telesford": {},
     "Eduardo Gonzalez-Moreira": {},
@@ -23,59 +27,6 @@
     "Michael Milham": {},
     "Alexandre Rosa Franco": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.1038/s41597-023-02458-8",
-      "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/nm000254",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000254",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "NIH",
-      "award_number": "R24MH114806",
-      "award_title": "BRAIN Initiative Grant"
-    },
-    {
-      "funder_name": "NIH",
-      "award_number": "P50MH109429",
-      "award_title": "National Institute of Mental Health Grant"
-    }
-  ],
-  "title": "Naturalistic viewing: An open-access dataset using simultaneous EEG-fMRI",
-  "dataset_type": "raw",
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "anat",
-    "eeg",
-    "func"
-  ],
-  "resource_type_specific": "Structural MRI Dataset",
-  "sizes": [
-    "274.8 GB (1980 files)"
-  ],
-  "formats": [
-    ".gz",
-    ".json",
-    ".set",
-    ".sh",
-    ".tsv",
-    ".vhdr",
-    ".vmrk",
-    ".yml"
-  ],
-  "description": "This dataset comprises simultaneous EEG-fMRI recordings from 22 participants (ages 23-51) during naturalistic viewing, collected at the Nathan Kline Institute. The multimodal acquisition includes 64-channel EEG, eye tracking, and physiological monitoring (respiration, ECG) alongside fMRI data. The dataset aims to elucidate the neural basis of brain function by examining correlations between electrical activity and hemodynamic fluctuations during naturalistic stimulation.",
-  "methods_description": "Data were collected using simultaneous EEG-fMRI acquisition. EEG was recorded with a 64-channel Brain Products BrainCapMR system (61 cortical channels, 2 EOG channels, 1 ECG channel). Eye tracking was performed using an EyeLink 1000 infrared-based tracker inside the scanner. Physiological recordings (respiration) were acquired using a BIOPAC MP150 system with a respiratory transducer belt. Participants completed behavioral assessments including the Pittsburgh Sleep Quality Index, sleep duration, and caffeine intake prior to scanning.",
   "keywords": [
     {
       "term": "EEG"
@@ -93,17 +44,69 @@
       "term": "eye tracking"
     },
     {
+      "term": "hemodynamics"
+    },
+    {
+      "term": "brain function"
+    },
+    {
       "term": "multimodal neuroimaging"
     },
     {
-      "term": "electrophysiology"
+      "term": "simultaneous recording"
     },
     {
-      "term": "brain imaging"
-    },
-    {
-      "term": "multimodal acquisition"
+      "term": "naturalistic stimuli"
     }
   ],
-  "source_hash": "6258927033afd07284b744e2da44c4fcd2973421f710117b9eae1b0cfe82a372"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000254",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000254",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-023-02458-8",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "NIH",
+      "award_number": "R24MH114806",
+      "award_title": "BRAIN Initiative Grant"
+    },
+    {
+      "funder_name": "National Institute of Mental Health",
+      "award_number": "P50MH109429"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "Structural MRI Dataset",
+  "modalities": [
+    "anat",
+    "eeg",
+    "func"
+  ],
+  "sizes": [
+    "274.8 GB (1980 files)"
+  ],
+  "formats": [
+    ".gz",
+    ".json",
+    ".md",
+    ".set",
+    ".sh",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "73b2e658bcf42b318b6c2443adf12f9e2a9d50433aef80f68e2e9714ec1f397f"
 }
